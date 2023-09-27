@@ -9,9 +9,9 @@ import PageNotFound from './components/PageNotFound';
 const AppRoutes = () => {
     return(
         <Routes>
-            <Route path='/' element={<HomePage />} />
-            <Route path='/zustand' element={<ZustandPage />} />
-            <Route path='/about' element={<AboutPage />} />
+            <Route path='react-router/' element={<HomePage />} />
+            <Route path='react-router/zustand' element={<ZustandPage />} />
+            <Route path='react-router/about' element={<AboutPage />} />
             <Route path='*' element={<PageNotFound />} />
         </Routes>
     )

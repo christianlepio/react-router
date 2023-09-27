@@ -7,7 +7,7 @@ const Navbar = () => {
         <>
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
                 <div className="container-fluid">
-                    <Link to='/' className="navbar-brand">
+                    <Link to='react-router/' className="navbar-brand">
                         <img src={LogoKo} alt="Logo" width="45" height="45" className="logoko" />
                     </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,13 +16,13 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <Link to='/' className="nav-link">Home</Link>                                
+                                <Link to='react-router/' className="nav-link">Home</Link>                                
                             </li>
                             <li className="nav-item">
-                                <Link to='/about' className="nav-link">About</Link>
+                                <Link to='react-router/about' className="nav-link">About</Link>
                             </li>
                             <li className="nav-item">
-                                <Link to='/zustand' className="nav-link">Learn Zustand</Link>
+                                <Link to='react-router/zustand' className="nav-link">Learn Zustand</Link>
                             </li>
                         </ul>
                         <hr />
