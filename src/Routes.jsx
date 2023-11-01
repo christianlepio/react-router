@@ -12,7 +12,7 @@ const AppRoutes = () => {
             <Route path='react-router/' element={<HomePage />} />
             <Route path='react-router/zustand' element={<ZustandPage />} />
             <Route path='react-router/about' element={<AboutPage />} />
-            <Route path='*' element={<PageNotFound />} />
+            <Route path='react-router/*' element={<PageNotFound />} />
         </Routes>
     )
 }
